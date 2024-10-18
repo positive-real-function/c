@@ -1,0 +1,37 @@
+
+Pseudo-code du tri cocktail :
+
+Fonction triCocktail(liste)
+    debut := 0
+    fin := taille(liste) - 1
+    permutation := vrai
+
+    Tant que permutation est vrai
+        permutation := faux
+        
+        Pour i de debut à fin-1 faire
+            Si liste[i] > liste[i+1] alors
+                échanger(liste[i], liste[i+1])
+                permutation := vrai
+            Fin si
+        Fin pour
+        
+        Si permutation est faux alors
+            Sortir de la boucle
+        Fin si
+        
+        permutation := faux
+        
+        Pour i de fin-1 à debut faire
+            Si liste[i] > liste[i+1] alors
+                échanger(liste[i], liste[i+1])
+                permutation := vrai
+            Fin si
+        Fin pour
+        
+        debut := debut + 1
+        fin := fin - 1
+    Fin tant que
+
+    Retourner liste
+fin

@@ -1,0 +1,3 @@
+/cygdrive/d/King/大三上/程序与算法3/devoir/TD5/cmake-build-debug/CMakeFiles/TD5.dir
+/cygdrive/d/King/大三上/程序与算法3/devoir/TD5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/King/大三上/程序与算法3/devoir/TD5/cmake-build-debug/CMakeFiles/rebuild_cache.dir

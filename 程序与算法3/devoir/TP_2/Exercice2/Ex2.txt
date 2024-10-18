@@ -1,0 +1,10 @@
+Complexité du tri cocktail :
+
+1.Dans le meilleur des cas:
+lorsque la liste est déjà triée, le tri cocktail a une complexité linéaire O(n)
+
+2.dans le pire des cas:
+lorsque la liste est triée en ordre inverse, le tri cocktail a une complexité quadratique O(n^2),
+
+car il effectue des échanges à chaque passage. En moyenne, le tri cocktail a une complexité O(n^2).
+
